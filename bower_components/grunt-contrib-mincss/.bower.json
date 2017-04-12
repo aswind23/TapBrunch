@@ -1,0 +1,14 @@
+{
+  "name": "grunt-contrib-mincss",
+  "homepage": "https://github.com/gruntjs/grunt-contrib-mincss",
+  "_release": "2e84cc55ab",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "2e84cc55ab2d2ae720690f4ecccfa9aa4a4464cf"
+  },
+  "_source": "https://github.com/gruntjs/grunt-contrib-mincss.git",
+  "_target": "*",
+  "_originalSource": "grunt-contrib-mincss",
+  "_direct": true
+}

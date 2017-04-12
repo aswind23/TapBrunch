@@ -1,0 +1,453 @@
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.clear {
+    zoom: 1
+}
+
+.clear:before,
+.clear:after {
+    content: " ";
+    display: table;
+}
+
+.clear:after {
+    clear: both;
+}
+
+html,
+body,
+header,
+footer,
+section,
+div,
+span,
+nav,
+ul,
+ul li,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+strong,
+p {
+    margin: 0px;
+    padding: 0px;
+    border: 0px none;
+    position: relative;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a,
+p,
+h2 {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    left: 0;
+    top: 0;
+    height: 120px;
+}
+
+.logo a {
+    display: inline-block;
+    width: 230px;
+}
+
+.logo label {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    margin-left: 30px;
+    padding: 7px 20px;
+    border-radius: 18px;
+    background-color: #f4f7f8;
+    border: 1px solid #dbdbdb;
+    font-size: 14px;
+    font-weight: 300;
+    color: #353535;
+}
+
+header .contain {
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+header .wrapper {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.wrapper {
+    padding-left: 100px;
+    padding-right: 100px;
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+header img,
+.mainContain img,
+footer img {
+    width: 100%;
+    display: block;
+}
+
+.navigation li {
+    float: left;
+    padding-left: 25px;
+}
+
+.navigation .social a {
+    display: inline-block;
+    margin-left: 5px;
+    width: 40px;
+    margin-top: 7px;
+}
+
+.navigation label,
+.navigation .loginLink a {
+    margin-top: 17px;
+    display: block;
+    color: #353535;
+}
+
+header .contain > div {
+    float: left;
+}
+
+header .contain > div.navigation {
+    float: right;
+    padding-top: 10px;
+}
+
+.contain {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.mainContain {
+    background-image: url('../images/banner_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    padding-top: 120px;
+}
+
+.mobileCarousal:before {
+    content: "";
+    background-image: url('../images/phoneCover.png');
+    background-size: 100% 100%;
+    background-position: left top;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+.mobileCover:after {
+    content: "";
+    background-image: url('../images/shadow.png');
+    background-size: 100% 100%;
+    background-position: left top;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 93px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+.mobileCarousal {
+    width: 260px;
+    padding: 75px 25px 13px 16px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.mobileCover {
+    width: 40%;
+    float: left;
+    text-align: center;
+}
+
+.mobileContent {
+    width: 60%;
+    float: left;
+    text-align: left;
+}
+.mobileContent.toggleContent .textContent{display: none}
+.mobileContent.toggleContent .loginContent{display: block;}
+.containTxt {
+    text-align: left;
+    color: white;
+}
+
+.containTxt h3 {
+    font-size: 38px;
+    font-weight: 300;
+    padding-top: 15%;
+}
+
+.containTxt h4 {
+    padding-top: 20px;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.eventTrigger a {
+    display: inline-block;
+    font-size: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 17px 30px;
+    color: white;
+    background-color: #f36379;
+    margin-top: 20px;
+    border-radius: 6px;
+    margin-right: 15px;
+}
+
+.downloadPath a {
+    display: inline-block;
+    width: 200px;margin-top: 15px;
+}
+.pageContent > div{
+    float: left;width: 60%;text-align: left;padding-top: 35px;padding-bottom: 35px;
+}
+.pageContent > div.shortContent{
+    width: 40%;padding-left:80px;
+}
+.pageContent  h3{
+    color: #f36379;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.pageContent .shortContent h3{
+    color:#555555;
+}
+.pageContent  h4{
+    color: #555555;
+    font-size: 17px;
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+.pageContent p{
+     font-size: 14px;
+      font-weight: 300;
+    color:#555555;
+}
+footer {
+    background-color: #222222;
+    padding-top: 55px;
+    padding-bottom: 30px;
+}
+
+footer ul li {
+    width: 21.6666666667%;
+    float: left;
+    text-align: left
+}
+
+footer ul li.logoPos {
+    width: 35%;
+}
+
+footer ul li ul li {
+    width: 100%;
+    float: none;
+}
+
+footer ul li ul li a,
+footer ul li p {
+    color: #7a7a7a;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 300;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    display: block;
+}
+
+footer ul li p strong {
+    font-weight: 700;
+}
+
+.logoPos a {
+    width: 85%;
+    display: block;
+    margin-top: 0px;
+    padding: 60px;
+    padding-left: 0px;
+}
+
+.social_footer a {
+    display: block;
+    padding-bottom: 5px;
+    width: 185px;
+    padding-top: 5px;
+}
+
+footer h3 {
+    color: #5d5d5d;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.footerCopyright {
+    padding-top: 15px;
+}
+
+.footerCopyright > div {
+    float: left;
+    width: 50%;
+    text-align: left;
+    color: white;
+    padding-top: 13px;
+}
+
+.footerCopyright > div.social_logo {
+    text-align: right;
+    padding-top: 0px;
+}
+
+.join {
+    display: inline-block;
+font-size: 13px;
+font-weight: 700;
+text-transform: uppercase;
+padding: 8px 30px;
+color: white;
+background-color: #f36379;
+border-radius: 6px;
+margin-left: 15px;
+}
+
+.social_logo > div {
+    display: inline-block;
+}
+
+.social_logo a {
+    display: inline-block;
+    width: 45px;
+margin: 5px;
+}
+
+.social_logo label {
+    font-size: 15px;
+    font-weight: 300;
+    font-style: italic;
+    color: white;
+    vertical-align: top;
+    padding-top: 16px;
+    display: inline-block;
+}
+.loginContent{
+    width: 500px;
+    margin: auto;
+}
+.loginBox{
+    background-color: white;
+    padding: 39px;
+    border-radius: 4px;
+}
+.loginWrap .row{
+    padding:10px;
+}
+.row input{
+    width: 100%;
+    height: 50px;
+}
+.row input[type="text"],
+.row input[type="password"]{
+    padding-left: 15px;
+}
+.row input[type="button"],.row input[type="submit"]{
+    background-color: #f36379;color: white;
+    font-weight: 700;
+    text-transform: uppercase;font-size: 17px;border:none;
+    cursor: pointer;
+
+}
+.ulLink a{
+    color: white;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 17px;padding:10px;padding-left:0px;
+}
+.outerRow li{width: 50%;float: left;text-align: left;padding: 12px}
+.outerRow li:last-child{text-align: right}
+.outerRowSocial li{display: inline-block;}
+.outerRowSocial li a{
+    color: white;
+    padding: 10px 18px;
+padding-left: 30px;
+font-size: 13px;
+border-radius: 3px;
+border: 1px solid #cfcfcf;
+}
+.outerRowSocial{text-align: center;padding-top: 25px;padding-bottom: 10px;}
+.outerRowSocial ul{display: inline-block;padding-top:20px;}
+.outerRowSocial li a:before{
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-repeat: no-repeat;
+    background-size: 23px;
+    background-position: right;
+    width: 30px;
+    height: 100%;
+}
+.twitter a:before{
+    background-image: url('../images/twitter_icon.png');
+}
+.facebook a:before{
+    background-image: url('../images/facebook_icon.png');
+}
+.google a:before{
+    background-image: url('../images/google.png');
+}
+.outerRowSocial li.google a{color: black}
+.twitter a{
+    background-color:#57acef;
+}
+.facebook a{
+    background-color:#3c5899;
+}
+.google a{
+    background-color:#f8f8f8;
+}

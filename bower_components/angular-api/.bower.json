@@ -1,0 +1,31 @@
+{
+  "name": "angular-api",
+  "main": "angular-api.js",
+  "version": "1.1.3",
+  "homepage": "https://github.com/rodrigobranas/angular-api",
+  "authors": [
+    "Rodrigo Branas <rodrigo.branas@gmail.com>"
+  ],
+  "description": "Angular API mapper",
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "1.1.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.1.3",
+    "commit": "72b63ab058e288e233d2fced7071815680f095eb"
+  },
+  "_source": "https://github.com/rodrigobranas/angular-api.git",
+  "_target": "^1.1.3",
+  "_originalSource": "angular-api",
+  "_direct": true
+}

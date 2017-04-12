@@ -1,0 +1,24 @@
+{
+  "name": "grunt-contrib-mincss",
+  "description": "Compress CSS files.",
+  "version": "0.3.2",
+  "homepage": "https://github.com/gruntjs/grunt-contrib-mincss",
+  "author": {
+    "name": "Grunt Team",
+    "url": "http://gruntjs.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gruntjs/grunt-contrib-mincss.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gruntjs/grunt-contrib-mincss/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
